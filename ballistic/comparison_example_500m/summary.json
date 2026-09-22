@@ -1,0 +1,48 @@
+{
+  "state_errors": {
+    "vr_m_s": {
+      "max_abs_error": 2.144577092581841,
+      "rmse": 0.5301799427478225,
+      "final_error": 1.95e-07
+    },
+    "vn_m_s": {
+      "max_abs_error": 8.91191043852723,
+      "rmse": 2.1625230685196004,
+      "final_error": 1.82e-09
+    },
+    "height_km": {
+      "max_abs_error": 0.056178822409915785,
+      "rmse": 0.029644434195414272,
+      "final_error": -1.0830225605218402e-13
+    },
+    "range_km": {
+      "max_abs_error": 0.13950154117492275,
+      "rmse": 0.07535932059781053,
+      "final_error": 0.0034856905099331925
+    },
+    "beta_deg": {
+      "max_abs_error": 0.004645037964337462,
+      "rmse": 0.0025077852380575283,
+      "final_error": 0.0
+    },
+    "mass_kg": {
+      "max_abs_error": 28.653976780184166,
+      "rmse": 6.979880621236126,
+      "final_error": 0.09483645289310516
+    }
+  },
+  "switches": [
+    {
+      "kind": "power_to_coast",
+      "reference_time_s": 14.23074,
+      "calculated_time_s": 17.5,
+      "difference_s": 3.269259999999999
+    },
+    {
+      "kind": "coast_to_power",
+      "reference_time_s": 2245.256,
+      "calculated_time_s": 2240.0,
+      "difference_s": -5.255999999999858
+    }
+  ]
+}
